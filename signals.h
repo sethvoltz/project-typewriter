@@ -43,7 +43,7 @@
  */
 #ifdef __AVR_ATmega1280__
 #include "signals_mega.h"
-#elif defined (__AVR_ATmega328__) || defined (__AVR_ATmega168__)
+#elif defined (__AVR_ATmega328__) || defined (__AVR_ATmega168__) || defined (__AVR_ATmega328P__)
 #include "signals_duemilanove.h"
 #else
 #error Board not supported, new signals shim required.
