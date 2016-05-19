@@ -26,7 +26,7 @@
 #ifndef _SIGNALS_H_
 #define _SIGNALS_H_
 #include <stdint.h>
-#include "WProgram.h"
+#include <Arduino.h>
 
 /*
  * THIS FILE DOES NOT CONTAIN ANY RUNTIME CONDITIONALS!
@@ -70,3 +70,4 @@ void init_write(void) {
 }
 
 #endif // _SIGNALS_H_
+

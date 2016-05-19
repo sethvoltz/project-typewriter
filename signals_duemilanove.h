@@ -26,7 +26,7 @@
 #ifndef _SIGNALS_PLATFORM_H_
 #define _SIGNALS_PLATFORM_H_
 #include <stdint.h>
-#include "WProgram.h"
+#include <Arduino.h>
 
 /*
  * THIS FILE DOES NOT CONTAIN ANY CONDITIONALS!
@@ -126,3 +126,4 @@ uint8_t read_scans(void) {
 }
 
 #endif // _SIGNALS_PLATFORM_H_
+
