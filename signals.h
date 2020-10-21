@@ -26,7 +26,7 @@
 #ifndef _SIGNALS_H_
 #define _SIGNALS_H_
 #include <stdint.h>
-#include "WProgram.h"
+#include <Arduino.h>
 
 /*
  * THIS FILE DOES NOT CONTAIN ANY RUNTIME CONDITIONALS!
@@ -43,7 +43,7 @@
  */
 #ifdef __AVR_ATmega1280__
 #include "signals_mega.h"
-#elif defined (__AVR_ATmega328__) || defined (__AVR_ATmega168__)
+#elif defined (__AVR_ATmega328__) || defined (__AVR_ATmega168__) || defined (__AVR_ATmega328P__)
 #include "signals_duemilanove.h"
 #else
 #error Board not supported, new signals shim required.
@@ -70,3 +70,4 @@ void init_write(void) {
 }
 
 #endif // _SIGNALS_H_
+

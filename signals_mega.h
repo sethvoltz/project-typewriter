@@ -99,3 +99,4 @@ uint8_t read_scans(void) {
 }
 
 #endif // _SIGNALS_PLATFORM_H_
+

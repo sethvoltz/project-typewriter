@@ -65,3 +65,4 @@ uint8_t debounce(uint8_t sample, struct debounceState *debouncer) {
 }
 
 #endif // _DEBOUNCE_H_
+
